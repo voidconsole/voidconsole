@@ -12,9 +12,17 @@ I'm Satwik Bhusanur, a technology enthusiast with a passion for innovation and c
 
 Here are some highlights from my GitHub repositories:
 
-1. [Sudoku Algorithm](https://voidconsole/sudoku-algorithm): [Brief description]
-1. [Sudoku Algorithm](https://voidconsole/sudoku-algorithm): [Brief description]
-1. [Sudoku Algorithm](https://voidconsole/sudoku-algorithm): [Brief description]
+1. **[Sudoku Algorithm](https://github.com/voidconsole/sudoku-algorithm)**  
+   A data structures and algorithms (DSA) focused project that implements an efficient algorithm to solve Sudoku puzzles. This project demonstrates advanced problem-solving skills and optimization techniques.
+
+2. **[Spotify Dashboard](https://github.com/voidconsole/spotify-dashboard)**  
+   A backend-focused project that connects to the Spotify API to fetch and analyze trends in the latest music. This project highlights proficiency in working with APIs and managing backend services.
+
+3. **[Princeton Formula](https://github.com/voidconsole/princeton-formula)**  
+   A JavaScript-driven solution that addresses pricing challenges in products and services. This project helps calculate the optimal price based on various market factors, showcasing strong logic and mathematical modeling skills.
+
+4. **[Lucky Shrub](https://github.com/voidconsole/lucky-shrub)**  
+   A frontend-focused project that creates a visually appealing and fully responsive website using HTML and CSS. It emphasizes the use of modern web design principles to deliver a sleek and user-friendly interface.
 
 Feel free to explore my repositories to see more of my work!
 
