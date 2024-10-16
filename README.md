@@ -18,7 +18,7 @@ Here are some highlights from my GitHub repositories:
 2. **[Spotify Dashboard](https://github.com/voidconsole/spotify-dashboard)**  
    A backend-focused project that connects to the Spotify API to fetch and analyze trends in the latest music. This project highlights proficiency in working with APIs and managing backend services.
 
-3. **[Princeton Formula](https://github.com/voidconsole/princeton-formula)**  
+3. **[Princeton Formula](https://github.com/voidconsole/priceton-formula)**  
    A JavaScript-driven solution that addresses pricing challenges in products and services. This project helps calculate the optimal price based on various market factors. [Check it out!](https://voidconsole.github.io/princeton-formula/).
 
 4. **[Lucky Shrub](https://github.com/voidconsole/lucky-shrub)**  
