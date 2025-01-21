@@ -1,6 +1,8 @@
-# Hi there! 👋
+<h1 align="center">
+   <img src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&size=50&center=true&vCenter=true&width=700&height=70&color=517FF7&duration=4000&lines=Hi+There!+👋;+I'm+Satwik+Bhusanur!;" />
+</h1>
 
-I'm Satwik Bhusanur, a technology enthusiast with a passion for innovation and creativity. With a background in programming over five languages, graphic design, 3D, and smart robotics, I'm dedicated to pushing the boundaries of what's possible and creating impactful solutions to real-world problems.
+A technology enthusiast with a passion for innovation and creativity. With a background in Programming 5 languages, Graphic Design, Photoshop, Blender, Da Vinci Resolve, Arduino, I thrive on pushing the boundaries of what's possible and creating meaningful solutions to complex problems.
 
 ## What I Do
 
