@@ -2,7 +2,7 @@
    <img src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&size=50&center=true&vCenter=true&width=700&height=70&color=517FF7&duration=4000&lines=Hi+There!+👋;+I'm+Satwik+Bhusanur!;" />
 </h1>
 
-A technology enthusiast with a passion for innovation and creativity. With a background in Programming 5 languages, Graphic Design, Photoshop, Blender, Da Vinci Resolve, Arduino, I thrive on pushing the boundaries of what's possible and creating meaningful solutions to complex problems.
+A technology enthusiast with a passion for innovation and creativity. With a background in programming 5 languages, Graphic Design, Photoshop, Blender, Da Vinci Resolve, Arduino, I thrive on pushing the boundaries of what's possible and creating meaningful solutions to complex problems.
 
 ## What I Do
 
