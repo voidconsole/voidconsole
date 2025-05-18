@@ -27,7 +27,7 @@ Here's your updated project list with the new additions integrated in the same c
 3. **[Spotify Dashboard](https://github.com/voidconsole/spotify-dashboard)**
    A backend-focused project that connects to the Spotify API to fetch and analyze trends in the latest music. Highlights proficiency in API integration and backend data handling.
 
-4. **[Custom Canvas](https://github.com/voidconsole/custom-canvas)** *(or whatever repo name applies)*
+4. **[Custom Canvas](https://github.com/voidconsole/custom-canvas)**
    A creative rendering engine mimicking `processing.js` using native HTML `div`s and CSS. Pushes the limits of DOM manipulation and animation logic to recreate pixel-perfect visuals without `<canvas>`.
 
 5. **[Sonarium](https://github.com/voidconsole/sonarium)**
