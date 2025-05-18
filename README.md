@@ -52,7 +52,7 @@ Feel free to explore my repositories to see more of my work!
 
 I'm always open to collaborating on exciting projects or discussing innovative ideas. You can reach me via:
 
-- Email: [bhusanursatwik@gmail.com](mailto:bhusanursatwik@gmail.com)
+- Email: [satwik.bhusanur@gmail.com](mailto:satwik.bhusanur@gmail.com)
 - LinkedIn: [linkedin.com/satwikbhusanur](https://linkedin.com/in/satwikbhusanur)
 
 Let's connect and build something extraordinary! 🚀
