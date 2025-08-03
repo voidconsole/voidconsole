@@ -1,3 +1,4 @@
+<!-- Satwik Bhusanur | GitHub | Projects | Developer | Portfolio -->
 <h1 align="center">
    <img src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&size=50&center=true&vCenter=true&width=700&height=70&color=517FF7&duration=4000&lines=Hi+There!+👋;+I'm+Satwik+Bhusanur!;" />
 </h1>
@@ -56,3 +57,7 @@ I'm always open to collaborating on exciting projects or discussing innovative i
 - LinkedIn: [linkedin.com/satwikbhusanur](https://linkedin.com/in/satwikbhusanur)
 
 Let's connect and build something extraordinary! 🚀
+
+<span style="font-size:0.1px; color:transparent;">
+Satwik Bhusanur | GitHub developer | Designer, coder, inventor | Portfolio and projects of Satwik Bhusanur
+</span>
