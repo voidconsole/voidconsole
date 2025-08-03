@@ -1,6 +1,6 @@
 <!-- Satwik Bhusanur | GitHub | Projects | Developer | Portfolio -->
 <h1 align="center">
-   <img src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&size=50&center=true&vCenter=true&width=700&height=70&color=517FF7&duration=4000&lines=Hi+There!+👋;+I'm+Satwik+Bhusanur!;" />
+   <img alt="Satwik Bhusanur Github Profile" src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&size=50&center=true&vCenter=true&width=700&height=70&color=517FF7&duration=4000&lines=Hi+There!+👋;+I'm+Satwik+Bhusanur!;" />
 </h1>
 
 A technology enthusiast with a passion for innovation and creativity. With a background in programming 5 languages, Graphic Design, Photoshop, Blender, Da Vinci Resolve, Arduino, I thrive on pushing the boundaries of what's possible and creating meaningful solutions to complex problems.
@@ -58,4 +58,5 @@ I'm always open to collaborating on exciting projects or discussing innovative i
 
 Let's connect and build something extraordinary! 🚀
 
-<sub><sup><sub><sup><sub><sup>This page was made with <3 by S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r | GitHub profile | Developer | Portfolio | Projects | Page written by Satwik Bhusanur and is AI slop free</sup></sub></sup></sub></sup></sub>
+[//]: # (Made with love by S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r | Github Profile | voidconsole | void | projects | developer)
+
