@@ -58,4 +58,4 @@ I'm always open to collaborating on exciting projects or discussing innovative i
 
 Let's connect and build something extraordinary! 🚀
 
-<sub><sub><sub><sub><sub><sub>S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r GitHub profile | Developer | Portfolio | Projects</sub></sub></sub></sub></sub></sub>
+[^1]: This is the footnote. Hello world good morning you cannot see me. John greyman. 
