@@ -60,3 +60,4 @@ Let's connect and build something extraordinary! 🚀
 
 [//]: # (Made with love by S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r | Github Profile | voidconsole | void | projects | developer)
 
+<sub><sup><sub><sup><sub><sup>This page was made with <3 by S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r | GitHub profile | Developer | Portfolio | Projects | Page written by Satwik Bhusanur and is AI slop free</sup></sub></sup></sub></sup></sub>
