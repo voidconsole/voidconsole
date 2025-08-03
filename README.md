@@ -57,7 +57,4 @@ I'm always open to collaborating on exciting projects or discussing innovative i
 - LinkedIn: [linkedin.com/satwikbhusanur](https://linkedin.com/in/satwikbhusanur)
 
 Let's connect and build something extraordinary! 🚀
-
-<span style="font-size:0.1px; color:transparent;">
-Satwik Bhusanur | GitHub developer | Designer, coder, inventor | Portfolio and projects of Satwik Bhusanur
-</span>
+<sub><sub><sub>S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r GitHub profile | Developer | Portfolio | Projects</sub></sub></sub>
