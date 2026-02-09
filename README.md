@@ -26,25 +26,28 @@ Here are some highlights from my GitHub repositories:
 4. **[AutoPost](https://github.com/voidconsole/autopost)**
    A social automation tool using AI and public APIs to generate and post content on LinkedIn and Twitter. Emulates human posting patterns with randomness and timing, ideal for passive personal branding or stealth marketing.
 
-5. **[Spotify Dashboard](https://github.com/voidconsole/spotify-dashboard)**
+5. **[VarZone](https://github.com/voidconsole/varzone)**
+   A real-time debate platform built with React, enabling structured arguments, voting, and topic switching. Encourages fast-paced intellectual sparring in a live collaborative environment. [Play Now!](https://voidconsole.github.io/varzone)
+
+6. **[Spotify Dashboard](https://github.com/voidconsole/spotify-dashboard)**
    A backend-focused project that connects to the Spotify API to fetch and analyze trends in the latest music. Highlights proficiency in API integration and backend data handling.
 
-6. **[Custom Canvas](https://github.com/voidconsole/custom-canvas)**
+7. **[Custom Canvas](https://github.com/voidconsole/custom-canvas)**
    A creative rendering engine mimicking `processing.js` using native HTML `div`s and CSS. Pushes the limits of DOM manipulation and animation logic to recreate pixel-perfect visuals without `<canvas>`.
 
-7. **[Sonarium](https://github.com/voidconsole/sonarium)**
+8. **[Sonarium](https://github.com/voidconsole/sonarium)**
    A conceptual RGB-like emotional sound system that maps feelings to audio frequencies. Bridges emotion, sound design, and creative computing in a unique way. [Try the UI](https://voidconsole.github.io/sonarium/)
 
-8. **[VarZone](https://github.com/voidconsole/varzone)**
+9. **[VarZone](https://github.com/voidconsole/varzone)**
    A real-time debate platform built with React, enabling structured arguments, voting, and topic switching. Encourages fast-paced intellectual sparring in a live collaborative environment.
 
-9. **[Brick](https://github.com/voidconsole/brick)**
+10. **[Brick](https://github.com/voidconsole/brick)**
    A productivity app built in Flutter that lets users set customizable daily reminders (“Bricks”) with local notifications. Works seamlessly in the background, showcasing cross-platform development and local state management.
 
-10. **[Princeton Formula](https://github.com/voidconsole/priceton-formula)**
+11. **[Princeton Formula](https://github.com/voidconsole/priceton-formula)**
    A JavaScript-driven solution addressing pricing challenges in products and services. Calculates optimal pricing based on market variables. [Check it out!](https://voidconsole.github.io/priceton-formula/)
 
-11. **[Lucky Shrub](https://github.com/voidconsole/lucky-shrub)**
+12. **[Lucky Shrub](https://github.com/voidconsole/lucky-shrub)**
    A frontend-focused website built with modern HTML and CSS, emphasizing responsive design and clean aesthetics. [Live here!](https://voidconsole.github.io/lucky-shrub/)
 
 
