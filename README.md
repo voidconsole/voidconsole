@@ -31,7 +31,7 @@ In short, I love to design the interface, the engine beneath it, and the hardwar
 
 
 
-# The systems I build
+# What I build
 
 <h3>
   <b><a href="https://github.com/voidconsole/tars">Tars</a></b> <i>(In Progress)</i>
@@ -146,7 +146,7 @@ The website, VS Code extension, command-line interface, and companion applicatio
 
 <br>
 
-# The tech I use
+# What I use
 
 ### Languages
 <p> <img src="https://img.shields.io/badge/JavaScript-02569B?style=flat-square&logo=javascript&logoColor=white"> 
