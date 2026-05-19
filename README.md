@@ -3,65 +3,64 @@
    <img alt="Satwik Bhusanur Github Profile" src="https://readme-typing-svg.herokuapp.com/?font=Montserrat&size=50&center=true&vCenter=true&width=700&height=70&color=517FF7&duration=4000&lines=Hi+There!+👋;+I'm+Satwik+Bhusanur!;" />
 </h1>
 
-A technology enthusiast with a passion for innovation and creativity. With a background in programming 5 languages, Graphic Design, Photoshop, Blender, Da Vinci Resolve, Arduino, I thrive on pushing the boundaries of what's possible and creating meaningful solutions to complex problems.
 
-## What I Do
+> If it can be imagined, it can be built.
+> And if it can be built, I’ll probably over-engineer it for fun.
 
-- **Software Development**: Proficient in multiple programming languages, including JavaScript, Python, C++, Dart, and React.js, I specialize in Frontend Web Development, DSA, and Robotics.
-- **Design**: Skilled in Figma, Photoshop, Blender, and Da Vinci Resolve, I enjoy translating ideas into visually stunning designs and intuitive user interfaces.
-- **Project Management**: Experienced in leading cross-functional teams and driving successful projects from concept to delivery.
+I build systems.
 
-## My Projects
+Sometimes they become programming languages.
+Sometimes they become autonomous machines.
+Sometimes they become simulations, encrypted infrastructure, or weird computational experiments that probably should not exist.
 
-Here are some highlights from my GitHub repositories:
-1. **[Tars](https://github.com/voidconsole/tars)**
-   A stochastic, temporal, analytical, high-level general-purpose programming ecosystem built in JavaScript, supporting both compilation and interpretation, with native capabilities for artificial intelligence, scientific computation, and advanced mathematics through novel, first-class data types.
+Most of my work lives at the intersection of:
 
-2. **[Voided](https://github.com/voidconsole/voided)**
-   A self-hosted, privacy-centric network protocol with layered cryptographic guarantees, designed to perform without any third-party infrastructure. It uses a custom WebSocket transport served via NGINX and Node.js on a Raspberry Pi, with a Flutter-based client for end-to-end control.
+* emergence
+* physics
+* design
+* computation
+* control systems
+* embedded engineering
+* cryptography
+* AI
+* simulation
 
-3. **[Sudoku Algorithm](https://github.com/voidconsole/sudoku-algorithm)**
-   A data structures and algorithms (DSA) focused project that implements an efficient algorithm to solve Sudoku puzzles. Demonstrates advanced problem-solving and optimization techniques. [Try](https://voidconsole.github.io/sudoku-algorithm/)
+In short, I love to design the interface, the engine beneath it, and the hardware beneath that.
 
-4. **[AutoPost](https://github.com/voidconsole/autopost)**
-   A social automation tool using AI and public APIs to generate and post content on LinkedIn and Twitter. Emulates human posting patterns with randomness and timing, ideal for passive personal branding or stealth marketing.
+---
 
-5. **[VarZone](https://github.com/voidconsole/varzone)**
-   A real-time debate platform built with React, enabling structured arguments, voting, and topic switching. Encourages fast-paced intellectual sparring in a live collaborative environment. [Play Now!](https://voidconsole.github.io/varzone)
+# Projects
 
-6. **[Spotify Dashboard](https://github.com/voidconsole/spotify-dashboard)**
-   A backend-focused project that connects to the Spotify API to fetch and analyze trends in the latest music. Highlights proficiency in API integration and backend data handling.
+* **TARS** — A stochastic-temporal programming language where uncertainty, distributions, tensors, lattices, and time exist as first-class computational primitives. Introduces entirely new execution semantics through Fluxions and collapse-based computation, enabling deterministic and probabilistic systems to coexist natively inside the language itself. Built for simulations, AI, scientific computing, procedural generation, and emergent systems.
 
-7. **[Custom Canvas](https://github.com/voidconsole/custom-canvas)**
-   A creative rendering engine mimicking `processing.js` using native HTML `div`s and CSS. Pushes the limits of DOM manipulation and animation logic to recreate pixel-perfect visuals without `<canvas>`.
+* **Devoid** — A self-hosted zero-knowledge communication infrastructure built using Flutter, Node.js, NGINX, SQLite, and a Raspberry Pi. Uses layered cryptographic security with ephemeral X25519 key exchange, AES-256-GCM pairwise encryption, blind-router architecture, dynamic re-decryption, and zero third-party infrastructure philosophy.
 
-8. **[Sonarium](https://github.com/voidconsole/sonarium)**
-   A conceptual RGB-like emotional sound system that maps feelings to audio frequencies. Bridges emotion, sound design, and creative computing in a unique way. [Try the UI](https://voidconsole.github.io/sonarium/)
+* **Fluid-Sim** — A research-oriented fluid simulation engine exploring whether fluid phenomena can emerge purely from localized elastic collision laws without Navier–Stokes equations. Demonstrates emergent vortices, pressure fronts, thermal diffusion, shear instability, and Bernoulli-like behavior using only particle interactions.
 
-9. **[VarZone](https://github.com/voidconsole/varzone)**
-   A real-time debate platform built with React, enabling structured arguments, voting, and topic switching. Encourages fast-paced intellectual sparring in a live collaborative environment.
+* **Collision** — A custom 2D particle physics engine built entirely from first principles using momentum transfer and elastic collision mathematics. Serves as the foundational engine behind Fluid-Sim and other emergence experiments, focusing on raw interaction laws instead of prebuilt physics abstractions.
 
-10. **[Brick](https://github.com/voidconsole/brick)**
-   A productivity app built in Flutter that lets users set customizable daily reminders (“Bricks”) with local notifications. Works seamlessly in the background, showcasing cross-platform development and local state management.
+* **Control-System** *(In Progress)* — An autonomous rocket ascent/descent control system with active fin stabilization and GPS-guided parasail recovery. Designed around multi-PID control loops, flight-state transitions, autonomous coordinate landing, and embedded aerospace guidance systems.
 
-11. **[Princeton Formula](https://github.com/voidconsole/priceton-formula)**
-   A JavaScript-driven solution addressing pricing challenges in products and services. Calculates optimal pricing based on market variables. [Check it out!](https://voidconsole.github.io/priceton-formula/)
+* **Maglev Globe** — A magnetically levitating interactive globe featuring Bluetooth control, RGB synchronization, geolocation mapping, and custom timing-based rotational feedback reconstruction. Converts a continuous-rotation servo with no positional feedback into a deterministic geographic positioning system through RPM timing and calibration logic.
 
-12. **[Lucky Shrub](https://github.com/voidconsole/lucky-shrub)**
-   A frontend-focused website built with modern HTML and CSS, emphasizing responsive design and clean aesthetics. [Live here!](https://voidconsole.github.io/lucky-shrub/)
+* **Varzone** — A real-time debate arena combining structured argument systems, live synchronization, role-based participation, gamified intellectual competition, and optional AI-assisted judging into a state-driven multiplayer debate platform.
+
+* **Sonarium** *(In Progress)* — An experimental emotional audio engine that maps spatial movement into dynamically layered musical states to generate continuous emotional spectra and interactive mood manipulation through procedural sound synthesis.
+
+* **NanoWatch** — An open-source embedded smartwatch platform built around the Arduino Nano BLE ecosystem with calculator systems, BLE communication, low-power logic, custom UI state management, and programmable hardware interaction.
+
+* **Custom Canvas** — A deliberately unconventional rendering engine that recreates Processing.js-like graphics entirely using dynamically generated HTML divs and CSS instead of the `<canvas>` API, exploring rendering systems from first principles.
+
+* **Matrix** — A Processing.js spatial simulation experiment that creates the illusion of 3D depth entirely in 2D space through perspective scaling, motion parallax, velocity-distance relationships, and randomized spatial dynamics.
+
+* **NowYouSeeMe** — A science-gallery installation using rotating mirrors and randomized stopping behavior to physically demonstrate observer effect and probabilistic collapse through interaction and observation-triggered state resolution.
 
 
-Feel free to explore my repositories to see more of my work!
+## [Explore Projects](./PROJECTS.md)
 
-## Get in Touch
+---
 
-I'm always open to collaborating on exciting projects or discussing innovative ideas. You can reach me via:
+# Find me on:
 
-- Email: [satwik.bhusanur@gmail.com](mailto:satwik.bhusanur@gmail.com)
-- LinkedIn: [linkedin.com/satwikbhusanur](https://linkedin.com/in/satwikbhusanur)
-
-Let's connect and build something extraordinary! 🚀
-
-[//]: # (Made with love by S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r | Github Profile | voidconsole | void | projects | developer)
-
-<sub><sup><sub><sup><sub><sup>This page was made with <3 by S​a​t​w​i​k​ ​B​h​u​s​a​n​u​r | GitHub profile | Developer | Portfolio | Projects | Page written by Satwik Bhusanur and is AI slop free</sup></sub></sup></sub></sup></sub>
+* GitHub: github.com/voidconsole
+* LinkedIn: linkedin.com/in/satwikbhusanur
