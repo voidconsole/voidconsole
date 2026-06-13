@@ -37,8 +37,8 @@ In short, I love to design the interface, the engine beneath it, and the hardwar
   <b><a href="https://github.com/voidconsole/tars">Tars</a></b> <i>(In Progress)</i>
 </h3>
 
-A stochastic temporal general-purpose programming language and runtime ecosystem where probability, uncertainty, lattices, and time exist as first-class primitives. Explores probabilistic execution models, analytical computation, scientific mathematics, and non-deterministic control flow through both interpreted and compiled execution.
-The website, VS Code extension, command-line interface, and companion applications are maintained  in 
+A stochastic temporal general-purpose programming language and runtime ecosystem. Probability, uncertainty, lattices, and time are treated as first-class primitives. I'm building it to explore probabilistic execution models, analytical computation, scientific mathematics, and non-deterministic control flow through both interpreted and compiled execution.
+The website, VS Code extension, CLI, and companion tools are maintained in
 <a href="https://github.com/voidconsole/tarsx">tarsx</a>.
 
 
@@ -46,7 +46,7 @@ The website, VS Code extension, command-line interface, and companion applicatio
    <h3>
       <b><a href="https://github.com/voidconsole/devoid">Devoid</a></b>
     </h3>
-    A self-hosted zero-knowledge communication infrastructure built using Flutter, Node.js, NGINX, SQLite, and Raspberry Pi hardware. Uses layered cryptographic security with ephemeral X25519 key exchange while eliminating dependence on third-party communication infrastructure.
+A self-hosted, zero-knowledge communication infrastructure. It runs on a Raspberry Pi using a Flutter/Node.js/NGINX/SQLite stack. Security is handled via self-signed OpenSSL certificates and layered cryptographic tunnels with ephemeral X25519 key exchange to eliminate reliance on third-party services.
     <a href="https://github.com/voidconsole/devoid/releases/tag/v3.14">
       <img src="https://img.shields.io/badge/Try%20Now-02569B?style=flat-square">
     </a>
@@ -66,7 +66,7 @@ The website, VS Code extension, command-line interface, and companion applicatio
    <h3>
       <b><a href="https://github.com/voidconsole/collision">Collision</a></b>
     </h3>
-    A custom 2D particle physics engine built entirely from first principles using momentum transfer, elastic collision mathematics, and localized interaction systems. Serves as the foundational engine behind <a href="https://voidconsole.github.io/collision">Fluid Engine</a>.   
+   A custom 2D particle physics engine built from first principles using momentum transfer, elastic collision mathematics, and localized interaction systems. This serves as the foundational engine for the <a href="https://voidconsole.github.io/collision">Fluid Engine</a>.   
     <a href="https://voidconsole.github.io/collision">
       <img src="https://img.shields.io/badge/Try%20Now-02569B?style=flat-square">
     </a>
@@ -83,7 +83,7 @@ The website, VS Code extension, command-line interface, and companion applicatio
 <h3>
       <b><a href="https://github.com/voidconsole/varzone">Varzone</a></b>
     </h3>
-    A real-time gamified debate and argumentation platform combining synchronized discussions, live voting, role-based participation, collaborative reasoning in a competitive structure.
+A real-time gamified debate and argumentation platform. It combines synchronized discussions, live voting, role-based participation, and collaborative reasoning within a competitive structure.
     <a href="https://voidconsole.github.io/varzone">
       <img src="https://img.shields.io/badge/Try%20Now-02569B?style=flat-square">
     </a>
@@ -93,14 +93,14 @@ The website, VS Code extension, command-line interface, and companion applicatio
 <h3>
       <b><a href="https://github.com/voidconsole/maglev-globe">Maglev Globe</a></b>
     </h3>
-    A magnetically levitating interactive globe combining servo-driven rotational mapping, custom geolocation mathematics, Bluetooth communication, RGB synchronization, and a Flutter-based Android control system. Uses timing-based RPM reconstruction to achieve positional mapping without encoder feedback, allowing the globe to rotate precisely toward selected countries while dynamically matching flag colors through synchronized lighting.
+    A magnetically levitating interactive globe combining servo-driven rotational mapping, custom geolocation mathematics, Bluetooth communication, RGB synchronization, and a Flutter-based Android control system. Since it lacks hardware encoder feedback, I used timing-based RPM reconstruction to map rotational position, allowing it to rotate toward selected countries while syncing flag colors.
   
 
   
 <h3>
       <b><a href="https://github.com/voidconsole/custom-canvas">Custom Canvas</a></b>
     </h3>
-    A minimal rendering engine built entirely from dynamically generated HTML divs and CSS instead of the native canvas API. Explores alternative browser rendering architectures and DOM-driven animation systems.
+    A minimal rendering engine built entirely from from dynamically generated HTML divs and CSS instead of the native canvas API. It explores alternative browser rendering architectures and DOM-driven animation limits. 
     <a href="https://voidconsole.github.io/custom-canvas">
       <img src="https://img.shields.io/badge/Try%20Now-02569B?style=flat-square">
     </a>
@@ -110,13 +110,13 @@ The website, VS Code extension, command-line interface, and companion applicatio
 <h3>
       <b><a href="https://github.com/voidconsole/nanowatch">NanoWatch</a></b>
     </h3>
-    An embedded smartwatch platform built around the Arduino Nano BLE ecosystem, featuring BLE communication, low-power logic, sensor integration, calculator systems for constrained embedded environments.
+    An embedded smartwatch platform built around the Arduino Nano BLE ecosystem. It featuring BLE communication, low-power logic, sensor integration, calculator systems for constrained embedded environments.
   
 
 <h3>
       <b><a href="https://github.com/voidconsole/sonarium">Sonarium</a></b> <i>(In Progress)</i>
     </h3>
-    An experimental procedural audio engine that maps spatial position into layered musical environments, inducing targeted emotions. Explores continuous emotional spectra through interactive sound synthesis.
+    An experimental procedural audio engine that maps spatial position into layered musical environments to induce specific emotions. Explores continuous emotional spectra through interactive sound synthesis.
     <a href="https://voidconsole.github.io/sonarium">
       <img src="https://img.shields.io/badge/Try%20Now-02569B?style=flat-square">
     </a>
@@ -126,7 +126,7 @@ The website, VS Code extension, command-line interface, and companion applicatio
 <h3>
       <b><a href="https://github.com/voidconsole/sudoku-algorithm">Sudoku Algorithm</a></b>
     </h3>
-    A Sudoku-solving algorithm built from first-principles heuristic reasoning rather than predefined solving algorithms, through iterative possibility space reduction.
+   A Sudoku solver built from first-principles heuristic reasoning rather than standard backtracking. It uses iterative possibility space reduction to solve boards.
     <a href="https://voidconsole.github.io/sudoku-algorithm">
       <img src="https://img.shields.io/badge/Try%20Now-02569B?style=flat-square">
     </a>
@@ -136,7 +136,7 @@ The website, VS Code extension, command-line interface, and companion applicatio
 <h3>
       <b><a href="https://github.com/voidconsole/nowyouseeme">Now You See Me</a></b>
     </h3>
-    A science-gallery installation using rotating mirrors, randomized stopping systems, and observer interaction to physically demonstrate concepts related to probabilistic observation and measurement behavior.
+    A Science Gallery installation using rotating mirrors and randomized stopping systems. It demonstrates concepts of probabilistic observation and measurement behavior to observers.
 <br>
 
 <h3 align="center">
