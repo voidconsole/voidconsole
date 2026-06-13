@@ -4,442 +4,249 @@ A collection of systems, simulations, experimental infrastructure, embedded hard
 
 ---
 
-# TARS 
-> (In-Progress)
-A stochastic-temporal programming language where uncertainty, distributions, tensors, lattices, and time exist as first-class computational primitives.
+### **[TARS](https://www.google.com/search?q=https://github.com/voidconsole/tars)** *(In-Progress)*
 
-TARS introduces a new execution paradigm based around *Fluxions* (unresolved probabilistic states)  and *Collapse*, a sampling operation that resolves uncertainty into deterministic values at evaluation time. 
-Instead of treating randomness as a library feature, TARS embeds uncertainty directly into the semantics of the language itself. Besides Fluxions, it introduces new datatypes called Lattices, for implementing Matricies, Tensors, Datasets and other features.
+A stochastic-temporal general-purpose programming language and runtime ecosystem where uncertainty, distributions, tensors, lattices, and time exist as first-class computational primitives.
 
-The language is designed to unify:
-- deterministic computation
-- stochastic systems
-- scientific computing
-- AI systems
-- simulations
-- procedural generation
-- temporal logic
-
-Key features include:
-- Fluxions (`30 ~ 5`)
-- probabilistic conditionals
-- collapse semantics (`<x>`)
-- tensor/lattice systems
-- temporal operations
-- native mathematical abstractions
-- pipeline-based transformations
-- hybrid deterministic/stochastic execution
-
-The project explores what programming looks like when computation operates not only on values, but on evolving unresolved systems.
+* **Core Paradigm:** Replaces standard random libraries by embedding non-deterministic state directly into language semantics via *Fluxions* (unresolved probabilistic states), resolved at evaluation time through *Collapse* operations.
+* **Data Architecture:** Introduces *Lattices* as primitives to natively handle matrices, tensors, and datasets without external scaling abstractions.
+* **Key Features:** Fluxions (`30 ~ 5`), probabilistic conditionals, collapse semantics (`<x>`), lattice systems, temporal operations, and pipeline-based transformations.
+* **Tooling Infrastructure:** The complete ecosystem; including the website, VS Code extension, Node-based CLI, and companion applications; is maintained in `tarsx`.
 
 **Tech:** JavaScript, Compiler Design, ASTs, Language Engineering, Scientific Computing
 
 ---
 
-# DEVOID
+### **[DEVOID](https://www.google.com/search?q=https://github.com/voidconsole/devoid)**
 
-A self-hosted zero-knowledge communication infrastructure built entirely without third-party messaging services or cloud dependency.
+A self-hosted, zero-knowledge communication infrastructure built entirely without third-party messaging services, centralized platforms, or cloud dependency.
 
-Devoid uses a layered cryptographic architecture:
-- TLS transport security through NGINX
-- ephemeral X25519 session derivation
-- AES-256-GCM pairwise end-to-end encryption
-- blind-router server architecture
-
-The server is physically hosted on a Raspberry Pi and mathematically cannot decrypt user messages because it never possesses the required shared secrets.
-
-The system was built around the idea that communication infrastructure should remain functional even without dependency on centralized platforms or corporations.
-
-Key features:
-- self-hosted WebSocket infrastructure
-- ephemeral key exchange
-- dynamic media re-decryption
-- zero-knowledge messaging
-- custom Flutter client
-- SQLite WAL-based persistence
-- real-time encrypted messaging
-- hyperminimal interface design
-
-The project explores infrastructure sovereignty, privacy, and cryptographic trust minimization.
+* **Cryptographic Architecture:** Implements a layered security model featuring TLS transport security via NGINX, ephemeral X25519 session derivation, and AES-256-GCM pairwise end-to-end encryption.
+* **Trust Minimization:** Built on a blind-router server architecture physically hosted on a Raspberry Pi; the backend mathematically cannot decrypt user payloads as it never possesses the required shared secrets.
+* **System Capabilities:** Features self-hosted WebSocket infrastructure, dynamic media re-decryption, zero-knowledge messaging, and SQLite WAL-based persistence.
+* **Client App:** Interface designed around a hyperminimalist, custom-built Flutter client for real-time encrypted messaging.
 
 **Tech:** Flutter, Node.js, Cryptography, WebSockets, SQLite, NGINX, Raspberry Pi
 
 ---
 
-# FLUID-SIM
+### **[FLUID ENGINE](https://www.google.com/search?q=https://github.com/voidconsole/fluid-sim)**
 
-A research-oriented particle simulation engine exploring whether real fluid phenomena can emerge solely from localized collision laws without using Navier–Stokes equations.
+A research-oriented particle simulation engine investigating whether macro-scale fluid phenomena can emerge purely from localized collision laws without relying on Navier–Stokes equations.
 
-Instead of programming pressure, viscosity, turbulence, or thermal systems directly, the engine simulates only elastic particle collisions. Large-scale fluid behavior then emerges naturally from local momentum transfer between particles.
-
-The simulation successfully demonstrates:
-- vortices
-- pressure fronts
-- thermal diffusion
-- momentum waves
-- shear instability
-- Bernoulli-like effects
-- emergent turbulence
-
-Each experiment modifies only the particle initialization logic while the collision engine itself remains identical.
-
-The project serves as an exploration into emergence, computational physics, and bottom-up simulation systems.
+* **Bottom-Up Mechanics:** Bypasses direct programming of pressure, viscosity, turbulence, or thermal systems. The engine calculates only discrete elastic particle collisions, allowing macro behaviors to emerge from local momentum transfer.
+* **Demonstrated Phenomena:** Successfully simulates vortices, pressure fronts, thermal diffusion, momentum waves, shear instability, Bernoulli-like effects, and emergent turbulence.
+* **Control:** Every experiment modifies only the initial particle distribution logic while the underlying collision engine remains completely identical.
 
 **Tech:** JavaScript, p5.js, Physics Simulation, Particle Dynamics, Emergent Systems
 
 ---
 
-# COLLISION
+### **[COLLISION](https://www.google.com/search?q=https://github.com/voidconsole/collision)**
 
-A lightweight 2D collision and particle physics engine built entirely from first principles.
+A lightweight 2D collision and particle physics engine built entirely from first principles to understand the primitive mechanics underlying simulation systems.
 
-The engine handles:
-- elastic collisions
-- momentum transfer
-- overlap correction
-- particle interaction systems
-- boundary constraints
-- experimental interaction laws
-
-Collision acts as the foundational engine powering Fluid-Sim and several other simulation experiments.
-
-Instead of relying on existing physics libraries, the project rebuilds collision behavior manually using vector mathematics and geometric collision resolution to better understand the primitive mechanics underlying simulation systems.
-
-The engine also includes experimental alternate interaction modes that produce emergent orbit-like and chaotic particle behaviors.
+* **Physics Core:** Manually handles elastic collisions, momentum transfer, overlap correction, boundary constraints, and particle interaction systems using vector mathematics and geometric collision resolution.
+* **Integration:** Acts as the foundational computational engine powering Fluid-Sim and related velocity-based experiments.
+* **Experimental Modes:** Includes alternate interaction laws that produce non-standard emergent behaviors, such as orbit-like and chaotic particle dynamics.
 
 **Tech:** JavaScript, Computational Physics, Vector Mathematics, Simulation Systems
 
 ---
 
-# CONTROL-SYSTEM *(In Progress)*
+### **[ACCELERUS](https://www.google.com/search?q=https://github.com/voidconsole/control-system)** *(In Progress)*
 
-An autonomous rocket ascent/descent control system with guided recovery and active stabilization.
+An autonomous rocket ascent and descent flight computer featuring active aerodynamic stabilization and guided recovery systems.
 
-The project is designed around a multi-stage aerospace control architecture:
-- active fin control during ascent
-- autonomous flight-state transitions
-- apogee detection
-- parasail deployment
-- GPS-guided descent and landing
-
-The system uses multiple PID control loops and embedded control logic to stabilize and navigate the rocket through different aerodynamic regimes.
-
-The goal is to create a reusable autonomous recovery system capable of landing near predetermined coordinates after launch.
-
-The project explores:
-- embedded aerospace systems
-- control theory
-- autonomous navigation
-- state-driven flight systems
-- embedded sensor fusion
+* **Control Architecture:** Designed around a multi-stage aerospace control loop utilizing real-time sensor fusion and embedded logic to guide the vehicle through changing aerodynamic regimes.
+* **Flight Pipeline:** Manages active fin stabilization during ascent, executes autonomous flight-state transitions, triggers apogee detection, deploys a parasail, and runs GPS-guided descent logic.
+* **System Goal:** Establishes a reusable autonomous recovery architecture capable of landing hardware near predetermined coordinates post-launch.
 
 **Tech:** Embedded C, PID Control, GPS Systems, Flight Control, Embedded Systems
 
 ---
 
-# MAGLEV GLOBE
+### **[MAGLEV GLOBE](https://www.google.com/search?q=https://github.com/voidconsole/maglev-globe)**
 
-A magnetically levitating, Bluetooth-controlled interactive globe built using custom embedded hardware, geolocation mapping, and rotational control systems.
+A magnetically levitating, Bluetooth-controlled interactive globe combining custom embedded hardware, geolocation mapping, and rotational control loops.
 
-The globe levitates through magnetic dipole pairing while a hidden continuous-rotation servo controls orientation. Since continuous servos do not provide positional feedback, the project reconstructs geographic positioning through RPM timing and calibration logic using custom rotational sensing.
-
-The globe integrates:
-- magnetic levitation
-- RGB synchronization
-- Flutter-based Bluetooth control
-- geographic coordinate mapping
-- custom embedded firmware
-- timing-based servo positioning
-
-Selecting a country in the app rotates the globe to the corresponding geographic position while synchronizing RGB lighting to the country's flag colors.
-
-The project combines mechanical design, embedded systems, interaction design, and computational geometry into a unified physical computing system.
+* **Hardware Integration:** Achieves stable levitation via magnetic dipole pairing, while a hidden continuous-rotation servo drives physical orientation beneath the magnetic field.
+* **Feedback Solution:** Because continuous servos lack native positional feedback, the system implements custom rotational sensing and calibration logic to run timing-based RPM reconstruction.
+* **App Interaction:** Selecting a country within the Flutter-based Bluetooth client calculates coordinate mapping, triggers the firmware to rotate the globe precisely to that coordinate, and synchronizes RGB lighting to match the country's flag colors.
 
 **Tech:** Arduino, Flutter, Bluetooth, Embedded Systems, Servo Control, Magnetic Levitation
 
 ---
 
-# VARZONE
+### **[VARZONE](https://www.google.com/search?q=https://github.com/voidconsole/varzone)**
 
-A real-time multiplayer debate arena built around structured argument systems, role-based participation, and live synchronization.
+A real-time multiplayer debate arena that transforms structured intellectual discussion into a state-driven competitive system.
 
-Varzone combines:
-- debate systems
-- multiplayer interaction
-- AI-assisted judging
-- gamified participation
-- real-time communication
-- state-driven progression systems
-
-Each debate acts as a structured "arena" where users participate as:
-- orators
-- judges
-- spectators
-- AI moderators
-
-The platform includes strict debate-state transitions, faction systems, live scoring, and optional AI-based evaluation logic.
-
-The project explores how competitive intellectual discussion can be transformed into a real-time interactive system.
+* **State Management:** Utilizes synchronized state logic to enforce strict debate transitions, faction systems, and live scoring.
+* **Role-Based Interaction:** Organizes real-time communication into an interactive structure across four distinct user roles: Orators, Judges, Spectators, and AI Moderators.
+* **Evaluation Engine:** Integrates live user voting streams alongside optional AI-based judging and evaluation logic to map collaborative reasoning pathways.
 
 **Tech:** React, Firebase, Real-Time Systems, AI Integration
 
 ---
 
-# SONARIUM *(In Progress)*
+### **[SONARIUM](https://www.google.com/search?q=https://github.com/voidconsole/sonarium)** *(In Progress)*
 
-An experimental emotional audio engine that maps spatial movement into dynamically layered musical states to generate continuous emotional spectra.
+An experimental procedural audio engine that maps spatial movement into dynamically layered musical environments to explore continuous emotional spectra.
 
-Instead of selecting predefined songs or moods, Sonarium treats emotional states as navigable coordinate space. Mouse movement dynamically blends layered audio systems to create continuously evolving emotional soundscapes.
-
-The project explores:
-- procedural emotional synthesis
-- interactive mood control
-- spatial-audio mapping
-- emergent musical systems
-- affective computational interfaces
-
-The goal is to create a system where users navigate emotional states rather than selecting discrete tracks.
+* **Coordinate-Based Audio:** Replaces discrete track selection by treating emotional profiles as a navigable coordinate space.
+* **Dynamic Synthesis:** Mouse movement and spatial coordinate tracking dynamically blend and morph layered audio systems via interactive sound synthesis.
+* **Interface Goal:** Builds an affective computational interface where users navigate through fluid emotional landscapes rather than static media.
 
 **Tech:** JavaScript, Procedural Audio, Interactive Systems, Sound Design
 
 ---
 
-# NANOWATCH
+### **[NANOWATCH](https://www.google.com/search?q=https://github.com/voidconsole/nanowatch)**
 
-An open-source embedded smartwatch platform built around the Arduino Nano BLE ecosystem.
+An open-source embedded smartwatch platform focusing on compact hardware engineering and hardware state management under tight constraints.
 
-The watch integrates:
-- BLE communication
-- calculator systems
-- custom UI modes
-- low-power management
-- programmable interaction logic
-- hardware state management
-
-The system uses a TM1637 display, physical button interfaces, custom firmware architecture, and BLE communication for interaction with external devices.
-
-The project explores compact embedded system design and wearable hardware engineering.
+* **Hardware Integration:** Runs custom firmware to manage a physical button interface, low-power state logic, and an external TM1637 display module.
+* **System Capabilities:** Embeds local calculator utilities, customizable UI presentation modes, and programmable interaction logic.
+* **Connectivity:** Exposes BLE communication layers for real-time interaction and data passing with external devices.
 
 **Tech:** Arduino, BLE, Embedded Systems, Hardware Design
 
 ---
 
-# WASHWARE
+### **[WASHWARE](https://www.google.com/search?q=https://github.com/voidconsole/washware)**
 
-Custom firmware for a fully programmable washing machine motherboard.
+Custom firmware for a fully programmable washing machine motherboard structured around finite-state machine architectures.
 
-The system controls:
-- motor systems
-- water valves
-- rinse cycles
-- wash states
-- safety interlocks
-- timing systems
-- hardware feedback logic
-
-The firmware is structured around finite-state-machine based control systems with configurable washing behavior and embedded hardware safety constraints.
-
-The project explores appliance control systems and embedded automation architecture.
+* **Hardware Control:** Interfaces directly with low-level appliance hardware, orchestrating motor systems, water valves, rinse cycles, and wash timing configurations.
+* **Safety Engineering:** Embedded with strict hardware safety constraints, mapping hardware feedback logic and safety interlocks directly into the state transitions to protect system components.
 
 **Tech:** Embedded C++, FSM Architecture, Hardware Control Systems
 
 ---
 
-# CUSTOM CANVAS
+### **[CUSTOM CANVAS](https://www.google.com/search?q=https://github.com/voidconsole/custom-canvas)**
 
-A deliberately unconventional rendering engine that recreates Processing.js-style graphics entirely using dynamically generated HTML divs and CSS instead of the `<canvas>` API.
+A deliberately unconventional rendering engine that recreates Processing.js-style graphics pipelines entirely out of dynamically generated HTML elements and CSS transitions.
 
-Every graphical primitive is represented as positioned DOM elements updated in real time through JavaScript.
-
-The project explores:
-- rendering systems from first principles
-- spatial composition
-- browser rendering behavior
-- DOM-based graphics pipelines
-- abstraction reconstruction
-
-The goal was less about efficiency and more about understanding what fundamentally constitutes a rendering system beneath existing graphics abstractions.
+* **Architectural Experiment:** Bypasses the native HTML5 `<canvas>` API completely. Every graphical primitive is instantiated as a positioned DOM element updated in real time via JavaScript.
+* **System Benchmark:** Explores browser rendering limits, spatial composition, and DOM-driven animation behavior to isolate what fundamentally constitutes a graphics engine beneath standard abstractions.
 
 **Tech:** HTML, CSS, JavaScript, DOM Rendering Systems
 
 ---
 
-# MATRIX
+### **[MATRIX](https://www.google.com/search?q=https://github.com/voidconsole/matrix)**
 
-A Processing.js experiment exploring artificial depth perception entirely within 2D space.
+A 2D rendering experiment exploring how artificial depth perception can emerge within flat space without true 3D rendering environments.
 
-The simulation creates the illusion of 3D environments using:
-- perspective scaling
-- motion parallax
-- randomized spatial motion
-- depth-speed relationships
-- size-distance mapping
-
-Objects closer to the viewer move faster and appear larger while distant objects move slower and appear smaller, generating convincing depth perception without actual 3D rendering.
-
-The project explores how spatial perception emerges from motion relationships and perspective behavior.
+* **Perceptual Logic:** Generates the illusion of 3D depth by establishing explicit mathematical relationships between size, distance, and speed.
+* **Kinematic Scaling:** Applies perspective scaling and motion parallaxobjects closer to the viewer scale larger and move faster, while distant objects scale down and move slower to synthesize spatial depth.
 
 **Tech:** JavaScript, Processing.js, Motion Simulation, Spatial Rendering
 
 ---
 
-# NOWYOUSEEME
+### **[NOWYOUSEEME](https://www.google.com/search?q=https://github.com/voidconsole/nowyouseeme)**
 
-A science-gallery installation demonstrating observer effect and probabilistic collapse through physical interaction.
+A physical science-gallery installation demonstrating the observer effect and probabilistic collapse through mechanical, real-time hardware interaction.
 
-The installation uses rotating mirrors that continuously move until a user observes the system. Upon observation:
-- motion stops
-- one random mirror faces the user
-- uncertainty collapses into a resolved state
-
-The project physically represents concepts related to:
-- observer effect
-- probabilistic collapse
-- unresolved systems
-- state resolution through observation
-
-It acts as a conceptual bridge between physics-inspired philosophy and interactive installation design.
+* **Mechanical Logic:** Features motor-driven rotating mirrors that spin continuously until a user actively interacts with or observes the system.
+* **State Resolution:** Upon observation, a randomized stopping mechanism triggers, instantly halting motion and forcing a single random mirror to face the userserving as a physical analogy for a system collapsing from uncertainty into a resolved state.
 
 **Tech:** Physical Computing, Interactive Systems, Conceptual Installation Design
 
 ---
 
-# AUTOPOST
+### **[AUTOPOST](https://www.google.com/search?q=https://github.com/voidconsole/autopost)**
 
-An AI-assisted social automation system designed to generate and post content using randomized timing and behavioral variation.
+An automated social pipeline built to analyze, generate, and distribute content while mimicking non-deterministic human posting behavior.
 
-The system integrates:
-- AI-generated content
-- public APIs
-- randomized scheduling
-- behavioral timing logic
-- automated posting pipelines
-
-The goal was to explore automated personal branding systems that mimic non-deterministic human posting behavior.
+* **Automation Mechanics:** Orchestrates public APIs and generative AI engines through automated execution pipelines.
+* **Timing Logic:** Bypasses rigid cron scheduling in favor of randomized scheduling and behavioral timing logic to introduce natural variation into output distribution.
 
 **Tech:** Python, APIs, Automation Systems, AI Integration
 
 ---
 
-# TARSX
+### **[TARSX](https://www.google.com/search?q=https://github.com/voidconsole/tarsx)**
 
-The official VSCode extension for the TARS programming language ecosystem.
+The developer tooling infrastructure and official VSCode extension for the TARS programming language ecosystem.
 
-The extension provides tooling support for TARS development and acts as the foundation for future language tooling systems including:
-- syntax support
-- parsing systems
-- diagnostics
-- semantic analysis
-- language tooling infrastructure
-
-The project exists as part of the larger TARS ecosystem.
+* **Language Tooling:** Establishes the core foundation for syntax highlighting, parsing passes, diagnostics, and semantic analysis directly within the IDE workspace to support the broader language runtime.
 
 **Tech:** VSCode Extensions, JavaScript, Language Tooling
 
 ---
 
-# SMARTLIGHT
+### **[SMARTLIGHT](https://www.google.com/search?q=https://github.com/voidconsole/smartlight)**
 
-A dual-state ambient RGB lighting system that dynamically reacts to screen state and environmental conditions.
+A dual-state ambient RGB lighting system that dynamically synchronizes physical environments with real-time digital screen states.
 
-The system integrates:
-- RGB lighting control
-- embedded hardware logic
-- wireless communication
-- environmental synchronization
-- dynamic ambient response
-
-The project explores intelligent ambient environments and adaptive lighting systems.
+* **Ambient Pipeline:** Uses Python-driven screen capture and parsing to extract real-time color values, passing data wirelessly to custom embedded hardware.
+* **Hardware Actuation:** The receiving firmware processes inputs to drive RGB control arrays, generating an adaptive ambient response based on environmental and screen conditions.
 
 **Tech:** Python, Embedded Systems, RGB Control
 
 ---
 
-# COSMIC CIRCUITS
+### **[COSMIC CIRCUITS](https://www.google.com/search?q=https://github.com/voidconsole/cosmic-circuits)**
 
-The official website built for Blueprint, a Bengaluru-based hardware hackathon.
+The official frontend application and digital identity built for Blueprint, a hardware-focused hackathon based in Bengaluru.
 
-The project focused on:
-- branding systems
-- responsive web design
-- event presentation
-- visual communication
-- frontend interaction systems
-
-Built as a clean, hardware-oriented digital identity for the event.
+* **Design Implementation:** Prioritizes a highly responsive, hardware-oriented visual architecture focused on clean responsive layouts, event timeline presentation, and interaction design.
 
 **Tech:** HTML, CSS, JavaScript, UI Design
 
 ---
 
-# SUDOKU ALGORITHM
+### **[SUDOKU ALGORITHM](https://www.google.com/search?q=https://github.com/voidconsole/sudoku-algorithm)**
 
-A JavaScript-first Sudoku solving engine focused on logical deduction through iterative possibility reduction instead of brute-force guessing.
+A JavaScript deductive solving engine focused on logical constraint propagation rather than brute-force recursive backtracking.
 
-The solver works by continuously calculating the All Possible Values (APV) for every unsolved cell by analyzing:
-- rows
-- columns
-- 3×3 groups
-
-As constraints propagate through the board, the algorithm refines possibilities until deterministic solutions emerge naturally.
-
-Key features:
-- interactive Sudoku solving
-- APV visualization
-- real-time logical deduction
-- custom puzzle input
-- iterative constraint propagation
-- educational solving visualization
-
-The project was built to explore algorithmic deduction systems and make the internal reasoning of Sudoku solving visually understandable rather than opaque.
+* **Constraint Solving:** Maps the board as a possibility space, continuously calculating the All Possible Values (APV) for every unsolved cell across intersecting rows, columns, and 3×3 blocks.
+* **Deductive Engine:** As constraints propagate dynamically through the board matrix, the algorithm refines remaining valid states until a deterministic solution emerges naturally.
+* **Visualization:** Features real-time APV mapping to make the internal reasoning steps of constraint deduction visually transparent.
 
 **Tech:** JavaScript, Constraint Solving, DSA, Algorithm Design, Interactive Visualization
 
 ---
 
-# Projects that were created through agent-assisted development:
+# Agent-Assisted Development Benchmarks
 
-## WORMHOLE
+*Projects built specifically to evaluate code generation limits, implementation accuracy, and architectural compliance across various Large Language Models.*
 
-An encrypted ephemeral communication platform focused on frictionless temporary interaction and disposable communication spaces.
+### **[WORMHOLE](https://www.google.com/search?q=https://github.com/voidconsole/wormhole)**
 
-The system experimented with:
-- anonymous room systems
-- temporary encrypted messaging
-- transient communication infrastructure
-- lightweight realtime interaction
+An encrypted, ephemeral web communication platform focused on disposable, low-friction interaction spaces.
 
-Built as an exploration into low-friction communication systems and ephemeral digital presence.
+* **Implementation:** Experimented with rapid deployment of real-time data synchronization across anonymous room instances, handling temporary message states and transient user sessions without permanent storage.
 
 **Tech:** JavaScript, Firebase, Realtime Communication Systems
 
 ---
 
-## BRICK
+### **[BRICK](https://www.google.com/search?q=https://github.com/voidconsole/brick)**
 
-An experimental project exploring rapid system generation, and native notification scheduling and customization through assisted development workflows.
-> This project was intended to benchmark programming capabilities of various LLMs at the time of creation.
-Conclusion: 
-- Well refined, UI, and interaction design
-- Poorly working notification services
-- Inaccurate documention and usage of Flutter
+An experimental mobile prototype testing rapid system generation, native notification lifecycles, and notification customization through automated assistant workflows.
+
+* **Benchmark Evaluation:** * *Strengths:* Achieved highly refined UI execution and clean interaction design generation.
+* *Weaknesses:* Generated flawed background notification lifecycle management, paired with inaccurate documentation usage regarding Flutter's native hardware bridging APIs.
+
+
 
 **Tech:** AI-Assisted Development, Rapid Prototyping, Experimental Systems
 
 ---
 
-## SPOTIFY DASHBOARD
+### **[SPOTIFY DASHBOARD](https://www.google.com/search?q=https://github.com/voidconsole/spotify-dashboard)**
 
-A backend-focused analytics system integrating with the Spotify API to collect, analyze, and visualize music trend data.
-> This project was intended to benchmark programming capabilities of various LLMs at the time of creation.
-The project explored:
-- API orchestration
-- music trend analysis
-- realtime data handling
-- backend processing systems
-- structured media analytics
-Conclusion:
-- Sub-optimal UI and UX design
-- Accurate and working API and backend design
+A backend-focused analytics tool designed to interface with the Spotify API for music trend aggregation and data visualization workflows.
+
+* **Benchmark Evaluation:**
+* *Strengths:* Executed accurate API orchestration, stable backend data processing pipelines, and structured payload parsing.
+* *Weaknesses:* Resulted in sub-optimal, rigid layout hierarchy and poor user experience (UX) architectural flow.
+
+
 
 **Tech:** JavaScript, APIs, Backend Systems, Data Analysis
