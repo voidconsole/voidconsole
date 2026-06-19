@@ -13,7 +13,7 @@ I build systems.
 
 Sometimes they become programming languages.<br>
 Sometimes they become autonomous machines.<br>
-Sometimes they become simulations, encrypted infrastructure, or weird computational experiments that exist because they can.
+Other times they become simulations, encrypted infrastructure, or weird computational experiments that exist because they can.
 
 Most of my work lives at the intersection of:
 
@@ -27,7 +27,7 @@ Most of my work lives at the intersection of:
 - AI
 - Simulation
 
-In short, I love to design the interface, the engine beneath it, and the hardware beneath that.
+In short, I revel in designing the interface, the engine beneath it, and the hardware beneath that.
 
 
 
